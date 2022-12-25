@@ -30,20 +30,24 @@
 ## ★3
 - 12月中に1周解き切る & 復習
 
-### リスト（18問）
-- EncyclopediaOfParentheses
-- CPClasses
-- MinimumCoins
-- StateOfChokudai
+### リスト（20問）
+- ~~EncyclopediaOfParentheses~~
+- CPClasses（条件見落とし ⇒ 一応ok）
+- WeUsedToSingASongTogether（証明の理解が必要）
+- ~~MinimumCoin~~ （だいたいok）
+- StateOfChokudai（見直し必要）
+
 - LogInequality
 - AtCoderEkiden
 - LargeLCM
 - ShiftAndSwapping
 - ILove46
+- IWillNotDropOut
 - StairJump
 - DiceProduct
 - Uplift
 - ColorfulBlocks2
+
 - MagicForBalls
 - CakeCut
 - TwoBytwo
@@ -51,6 +55,7 @@
 - ThereAreTwoTypesOfCharacters
 
 ### 必要な小技
+- 
 
 ## ★4
 - 1月中に1周解き切る
