@@ -26,6 +26,7 @@
 - n進法の取り扱い
 - グラフの扱いと実装
 - メモリ制限超過(MLE)
+- int, long longの10進数の（だいたいの）最大値
 
 ## ★3
 - 12月中に1周解き切る & 復習
@@ -37,11 +38,12 @@
 - ~~MinimumCoin~~ （だいたいok）
 - StateOfChokudai（見直し必要）
 
-- LogInequality
-- AtCoderEkiden
-- LargeLCM
-- ShiftAndSwapping
-- ILove46
+- ~~LogInequality~~
+- ~~AtCoderEkiden~~
+- ~~LargeLCM~~
+- ~~ShiftAndSwapping~~
+- ~~ILove46~~
+
 - IWillNotDropOut
 - StairJump
 - DiceProduct
@@ -55,7 +57,15 @@
 - ThereAreTwoTypesOfCharacters
 
 ### 必要な小技
-- 
+- greedyの典型
+- 三角関数の扱い＆radianとdegreeの変換
+- 浮動小数点数の仕組みと丸め誤差について
+- 順列の実装（next_permutation）
+- 余りではなく，overflowする値を越えるか否かの判定方法
+- 最小公倍数の実装
+- 配列のシフトするときの工夫
+- 倍数の不定方程式
+
 
 ## ★4
 - 1月中に1周解き切る
