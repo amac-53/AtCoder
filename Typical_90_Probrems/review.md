@@ -7,7 +7,7 @@
 
 ### リスト（10問）
 - ~~CrossSum~~
-- ~~ScoreSumQueries~~（実装見直しいるかも）
+- ~~ScoreSumQueries~~（実装見直しeいるかも）
 - CubicCake （考え方から甘かった） 
 - ~~SelectPMOne~~
 - SignUpRequests（考え方ok，実装見直し）
@@ -44,17 +44,17 @@
 - ~~ShiftAndSwapping~~
 - ~~ILove46~~
 
-- IWillNotDropOut
-- StairJump
-- DiceProduct
-- Uplift
-- ColorfulBlocks2
+- ~~IWillNotDropOut~~
+- ~~StairJump~~
+- ~~DiceProduct~~
+- Uplift（きれいな実装）
+- ColorfulBlocks2（実装素早く）
 
 - MagicForBalls
-- CakeCut
-- TwoBytwo
-- CountingNumbers
-- ThereAreTwoTypesOfCharacters
+- CakeCut（解法から復習）
+- ~~TwoBytwo~~
+- CountingNumbers（実装復習）
+- ThereAreTwoTypesOfCharacters（想定解法の方を要復習）
 
 ### 必要な小技
 - greedyの典型
@@ -65,14 +65,71 @@
 - 最小公倍数の実装
 - 配列のシフトするときの工夫
 - 倍数の不定方程式
-
+- 上界・下界の見積もりとその実現方法
+- 因数分解
+- 繰り返し二乗法
+- 円環の考え方
+- MODの割り算
+- ランレングス圧縮（pair型の使い方）
 
 ## ★4
 - 1月中に1周解き切る
 
-### リスト
+### リスト（14問）
+- YokanParty（むずい）
+- LongestCircularRoad
+- AtCounter
+- RedPainting
+
+- IndependentSetOnATree
+- ClutteredPaper
+- ThereAreFewTypesOfElements
+- MultipleOf9
+
+- MazeChallengeWithLackOfSheep
+- OriginalCalculator
+- MonochromaticSubgrid
+
+- PlantPlanning
+- LoopRailwayPlan
+- Multiplication085
+
+### 必要な小技
+- max minのアプローチ
 
 ## ★5
 - 2月中に1周解き切る
 
 ### リスト
+- SmallestSubsequence
+- Passing
+- ComeBackInOnePiece
+
+- LockBricks
+- KFactors
+- MaxManhattanDistance
+
+- Don'tLeaveTheSpice
+- TreeDistance
+- TypicalShop
+
+- LuckyBag
+- Chimera
+- VariousArrays
+
+- PairedInformation
+- WeNeedBothAandB
+- FriendlyGroup
+
+- Sunke'sFavoriteArrays
+- Chokudai'sDemand
+  
+### 必要な小技
+
+## ★6
+- 3月中に1周解き切る
+
+### リスト
+
+### 必要な小技
+
