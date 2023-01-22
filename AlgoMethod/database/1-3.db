@@ -1,0 +1,1 @@
+SELECT * FROM prefectures WHERE 1000000 > population;

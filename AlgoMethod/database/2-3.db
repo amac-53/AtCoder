@@ -1,0 +1,3 @@
+UPDATE prefectures set name = "茨城県" where name = "茨木県";
+UPDATE prefectures set name = "鳥取県" where name = "取鳥県";
+SELECT * FROM prefectures;
