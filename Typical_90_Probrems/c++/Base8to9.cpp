@@ -13,7 +13,6 @@ long long Eight2Ten(string S){
 
 string Ten2Nine(long long n){
     string ans;
-
     if(n == 0) return "0";
     while(n > 0){
         ans = char(n % 9 + '0') + ans;

@@ -1,21 +1,21 @@
 # 復習用
-
 難易度ごとにリスト化し，問題ごとに復習すべき項目をメモ
 
-## ★2
+
+## ★2(1/22更新)
 - 11月中に1周解き切る & 復習
 
 ### リスト（10問）
 - ~~CrossSum~~
-- ~~ScoreSumQueries~~（実装見直しeいるかも）
-- CubicCake （考え方から甘かった） 
+- ~~ScoreSumQueries~~（実装まで完璧）
+- CubicCake （実装まで完璧）
 - ~~SelectPMOne~~
-- SignUpRequests（考え方ok，実装見直し）
-- NotTooBright（若干コーナーケースに引っかかった，他はok）
+- SignUpRequests（実装まで完璧だが，setを使った別解と使い分けを理解しておく）
+- NotTooBright（コーナーケースまで含めて完璧）
 - ~~Select5~~
 - ~~Deck~~
-- Base8to9（若干苦手な部類＆実装がかなり賢いので要練習）
-- EasyGraphProblem（実装見直し）
+- Base8to9（工夫が必要．要見直し）
+- EasyGraphProblem（実装完璧．まだ不慣れなのか若干遅い）
 
 ### 必要な小技
 - GCDの実装
@@ -28,7 +28,8 @@
 - メモリ制限超過(MLE)
 - int, long longの10進数の（だいたいの）最大値
 
-## ★3
+
+## ★3（1/23）
 - 12月中に1周解き切る & 復習
 
 ### リスト（20問）
@@ -72,11 +73,12 @@
 - MODの割り算
 - ランレングス圧縮（pair型の使い方）
 
-## ★4
+
+## ★4（1/24の週に終わらせる）
 - 1月中に1周解き切る
 
 ### リスト（14問）
-- YokanParty（むずい）
+- YokanParty
 - LongestCircularRoad
 - AtCounter
 - RedPainting
@@ -86,7 +88,7 @@
 - ThereAreFewTypesOfElements
 - MultipleOf9
 
-- MazeChallengeWithLackOfSheep
+- MazeChallengeWithLackOfSleep
 - OriginalCalculator
 - MonochromaticSubgrid
 
@@ -96,6 +98,19 @@
 
 ### 必要な小技
 - max minのアプローチ
+- 木の直径を高速に求める
+- dpのうまい使い方
+- Union-Find
+- 二部グラフの性質を知る
+- 2次元いもす法 
+- 拡張ダイクストラ・0-1BFS
+- 周期性に注目
+- 変な制約に注目
+- マンハッタン距離について（x, yを独立に考える）
+- バックトラック法（ナイト巡回問題，Nクイーン問題）
+- 約数の個数の最大値（見積もりを知っておく・素因数分解）
+  - [AtCoder 版！マスター・オブ・整数 (素因数分解編)](https://qiita.com/drken/items/a14e9af0ca2d857dad23#2-%E7%B4%A0%E6%95%B0%E5%88%A4%E5%AE%9A)
+
 
 ## ★5
 - 2月中に1周解き切る
@@ -104,15 +119,14 @@
 - SmallestSubsequence
 - Passing
 - ComeBackInOnePiece
-
-- LockBricks
+- LockBricks 
+  
 - KFactors
 - MaxManhattanDistance
-
 - Don'tLeaveTheSpice
 - TreeDistance
-- TypicalShop
 
+- TypicalShop
 - LuckyBag
 - Chimera
 - VariousArrays
@@ -120,7 +134,6 @@
 - PairedInformation
 - WeNeedBothAandB
 - FriendlyGroup
-
 - Sunke'sFavoriteArrays
 - Chokudai'sDemand
   
@@ -130,6 +143,49 @@
 - 3月中に1周解き切る
 
 ### リスト
+- ThreePointAngle
+- GravyJobs
+- Don'tBeTooClose
+
+- PickTwo
+- VSAtCoder
+- SimpleGrouping
+
+- FlipDigits2
+- TakahashiNumber
+- FlipFlap
+
+- PaintAll
+- ABCString2
+- Let'sShareBit
+
+- ColorfulGraph
+- SimilarbutDifferentWays
 
 ### 必要な小技
 
+
+## ★7
+- 4, 5月中に1周解き切る
+
+### リスト
+- CrossingSegments
+- AvoidWar
+
+- DigitProductEquation
+- PreserveConnectivity
+
+- GetMoreMoney
+- PilesinAtCoderFarm
+
+- MonochromaticDiagonal
+- DiscreteDowsing
+
+- ManyGraphQueries
+- RGBBalls2
+
+- FuzzyPriority
+- Planesona2DPlane
+
+- PatitionsandInversions
+- Tenkei90'sLastProblem
