@@ -1,0 +1,20 @@
+WITH highest AS (
+    SELECT
+        id,
+        name AS "名前",
+        MAX(score) AS "スコア"
+    FROM
+        results
+    GROUP BY
+        name
+    ORDER BY
+        `スコア` DESC,
+        id ASC
+)
+
+SELECT
+    ROW_NUMBER() OVER() "順位",
+    "名前",
+    "スコア"
+FROM
+    highest;

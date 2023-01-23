@@ -27,10 +27,15 @@
 # データベース（database）
 ## 復習
 - 2-3(update), 2-4(insert), 2-5(delete), 2-6(複数条件), 2-7(複数テーブルを無理やりサブクエリで書く方法)
+- 3-1(offset), 3-3, 3-4(case式, GROUP BYでエイリアス使えんの事件), 3-5(union all), 3-6(intersect), 3-7(except)
+- 4-1(null), 4-2(条件付きCOUNT), 4-3(ROW_NUMBERとNOT IN), 4-4(実行順), 4-5(むずい)
+
 ## まとめ
 - SQLの実行順
 - LIMIT句，LIKE句（部分一致検索の「%」と「_」の意味を知る），ORDER BYの罠について
 - 副問い合わせ，update, insert, deleteの文法，複数条件（and, or の利用，集計後に再度検索 having），日付型の変換と扱いに注意
+- OFFSET句，WITH句，CASE式，エイリアスをgroup byに使えてしまう問題，ベン図系（union all(union)句, intersect, except）
+- NULLの扱い，GROUP BYの複数条件（直積），「データの縦持ちと横持ち」，COUNT関数のちゃんとした理解(COUNT(1)=COUNT(*), NULLの扱いなど)，ORDER BYの複数条件，SQLの実行順を意識(WHERE -> SELECT)
 
 
 # さまざまなアルゴリズム設計技法（algorithms）

@@ -1,0 +1,10 @@
+SELECT
+    *
+FROM
+    users
+WHERE
+    flg_data_public != 0 
+AND
+    name LIKE "%RURU"
+AND
+    rank IS NULL;    

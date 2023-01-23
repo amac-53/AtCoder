@@ -1,0 +1,26 @@
+WITH min_highest AS (
+    SELECT
+        *
+    FROM
+        temperature_august
+    WHERE
+        highest IN (
+            SELECT
+                MIN(highest)
+            FROM
+                temperature_august AS tmp
+            WHERE
+                tmp.prefecture = temperature_august.prefecture
+        )
+    ORDER BY
+        station_id
+)
+
+SELECT
+    * 
+FROM
+    min_highest
+GROUP BY
+    prefecture
+ORDER BY
+    highest;
