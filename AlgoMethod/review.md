@@ -38,6 +38,11 @@
 - NULLの扱い，GROUP BYの複数条件（直積），「データの縦持ちと横持ち」，COUNT関数のちゃんとした理解(COUNT(1)=COUNT(*), NULLの扱いなど)，ORDER BYの複数条件，SQLの実行順を意識(WHERE -> SELECT)
 
 
+# ソートアルゴリズム（sort_algorithms）
+## 復習
+- 1のsort基本実装全部
+- 2-1(setprecisionにやられた), 2-4(差の「最小値」の方のアプローチ．一応自力で実装できたがパターンとして持っておくべき), 2-5（pairを使用するソート）
+
 # さまざまなアルゴリズム設計技法（algorithms）
 ## 貪欲法
 - 
