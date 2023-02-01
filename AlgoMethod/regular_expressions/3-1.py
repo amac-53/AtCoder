@@ -1,7 +1,7 @@
 import re
 
 S = input()
-reg = r'\d+'
+reg = r'\d'
 
 search = re.search(reg, S)
 if search:
